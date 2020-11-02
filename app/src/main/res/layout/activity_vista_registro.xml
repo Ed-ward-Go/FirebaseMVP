@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Vista.RegistroView.VistaRegistro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Registrar Usuario"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="27dp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/txt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/nick"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/txt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="nickname"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/emai"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/txt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/txt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/passwconfirm"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/txt_style"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="confirma el password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegNueUser"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_border"
+        android:text="Registrar usuario" />
+
+</LinearLayout>
